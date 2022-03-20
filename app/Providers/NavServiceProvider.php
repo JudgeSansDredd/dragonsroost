@@ -29,6 +29,9 @@ class NavServiceProvider extends ServiceProvider
                 [
                       'name' => 'Home'
                     , 'route' => 'welcome'
+                ], [
+                      'name' => 'Glossary'
+                    , 'route' => 'glossary'
                 ]
             ];
             $view->with(compact('pages'));
