@@ -1,0 +1,1 @@
+<li><a class="text-sm text-drlightbrown hover:text-drdarkbrown" href="{{route($route)}}">{{$name}}</a></li>
