@@ -10,7 +10,7 @@
             </svg>
         </button>
     </div>
-    <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+    <ul class="hidden relative lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
         @foreach($pages as $index => $page)
             @if($index != 0)
                 @include('templates.navbar.linkseparator')

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\Glossary;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -11,6 +12,7 @@ class PageController extends Controller
     }
 
     public function glossary() {
-        return view('glossary');
+        $glossary = Glossary::getGlossary();
+        return view('glossary')->with(compact('glossary'));
     }
 }
