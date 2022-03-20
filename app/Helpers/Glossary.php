@@ -7,15 +7,23 @@ class Glossary {
     private static $glossaryLocation = 'glossary/glossary.json';
 
     public static function getGlossary() {
+        // Add metadata to the glossary (anchor tags and ids)
+        return self::_addMetaData(self::_getRawGlossary());
+    }
+
+    public static function addAnchorTagsToText($text) {
+        $terms = self::_getTerms(self::_getRawGlossary());
+        return self::_addAnchorTags($terms, $text);
+    }
+
+    private static function _getRawGlossary() {
         // If the json file exists, load it up, otherwise use an empty glossary
         if(Storage::exists(self::$glossaryLocation)) {
             $glossary = collect(json_decode(Storage::get(self::$glossaryLocation), true));
         } else {
             $glossary = collect();
         }
-
-        // Add metadata to the glossary (anchor tags and ids)
-        return self::_addMetaData($glossary);
+        return $glossary;
     }
 
     private static function _addMetaData($glossary) {
@@ -56,7 +64,7 @@ class Glossary {
         return $section;
     }
 
-    public static function _addAnchorTags($glossaryTerms, $haystack, $ignoreWords = []) {
+    private static function _addAnchorTags($glossaryTerms, $haystack, $ignoreWords = []) {
         $ignoreWords = collect($ignoreWords)->map(function($ignoreWord) { return strtolower($ignoreWord); });
         // Check each name for matches, and add anchor tags
         foreach ($glossaryTerms as $glossaryTerm) {

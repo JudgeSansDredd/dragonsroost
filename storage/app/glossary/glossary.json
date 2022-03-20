@@ -5,7 +5,7 @@
     "subEntries": [
       {
         "name": "The Draconic Caste",
-        "definition": "Composed of (almost) entirely sorcerers, the Draconic caste is meant to represent the pinnacle of human evolution and devotion to the treaty. The only non-sorcerous members of the Draconic caste are Treaty Officers. It's believed that their utter devotion to The Treaty grants them special dispensation from the Draconic Halls. The Draconic caste enjoy privileges throughout Dragonsroost and surrounding lands, and make up the majority of governance. Blood Scribes also enjoy the privilege of being of the Draconic caste, even though they renounce their family ties."
+        "definition": "Composed of (almost) entirely sorcerers, the Draconic caste is meant to represent the pinnacle of human evolution and devotion to the treaty. The only non-sorcerous members of the Draconic caste are Treaty Officers. It's believed that their utter devotion to The Treaty grants them special dispensation from the Draconic Halls. The Draconic caste enjoy privileges throughout Dragons Roost and surrounding lands, and make up the majority of governance. Blood Scribes also enjoy the privilege of being of the Draconic caste, even though they renounce their family ties."
       },
       {
         "name": "The Trade Caste",
@@ -18,6 +18,60 @@
       {
         "name": "Casteless",
         "definition": "There are those that have no caste, and as such have no status or legal protections within the caste system. Dwarves, being of the earth and not capable of wielding magic, fall within this group. Also in this group are all Warlocks. \"Selling your soul\" to a higher power for the gift of magic is seen as a perversion, and as such warlocks find themselves ostracized at best, hunted at worst."
+      }
+    ]
+  },
+  {
+    "name": "Races",
+    "definition": "There is evidence that more races existed, at one time, but in the modern age, only 3 civilized races remain. One could argue that goblins, orcs, etc. also have intelligence and culture, but you'd be laughed at by your peers. Rumors exist of other races living in faraway lands.",
+    "subEntries": [
+      {
+        "name": "Humans",
+        "definition": "By far the most prolific race, humans have membership in every class, every caste, and rule a large portion of the continent. The only places where they fail to have domain are the Great Forests to the north, and the Knife's Edge Mountains to the east, where the elves and dwarves live, respectively."
+      },
+      {
+        "name": "Elves",
+        "definition": "Elves, hailing from the Great Forests, live long, magically enhanced lives. Little is known about them, except that they look upon the human empire with disdain. Rumors have it that elven spies have infiltrated the Governing Council, and are working to foment rebellion."
+      },
+      {
+        "name": "Dwarves",
+        "definition": "Dwarves are born of the earth, and live in the Knife's Edge mountains to the east. For as long as anyone can recall, they have been at war with the humans. The foothills of the mountains are littered with the bones of both humans and dwarves. Dwarven prisoners of war are put to hard labor in the fields (the mines believed to be too dangerous for a subterranean species), and brought into Dragons Roost as slaves when their spirit is broken. Supposedly, someone attempting to escape their life in Dragons Roost can attempt an escape to the mountains, where the dwarves will welcome you in."
+      }
+    ]
+  },
+  {
+    "name": "Sorcerers",
+    "definition": "A sorcerer becomes one in a couple of different manners. They either inherit their power from one or both of their parents (a draconic bloodline sorcerer), or through the grace of the draconic gods, a person gains sorcerous abilities, even without a hereditary component (a wild magic sorcerer).",
+    "subEntries": [
+      {
+        "name": "Draconic Bloodline Sorcerer",
+        "definition": "When the parent of a child is a sorcerer, that child is closely monitored for evidence that they, too, carry the gift. If, during their teenage years, they show evidence of this, they are immediately welcomed into the draconic caste and their sorcerer's house, and their existence is recorded in the Blood Tomes kept by the Blood Scribes. Their draconic bloodline, thus, continues."
+      },
+      {
+        "name": "Wild Magic Sorcerer",
+        "definition": "Oftentimes, wild magic sorcerers discover their abilities quite accidentally, and quite explosively. Their abilities usually manifest during a time of great stress, such as an argument with a parent, or when doing something illegal. The Blood Scribes perform a short test to see if the individual is a newly minted sorcerer, and assuming it is so, they are recorded as the start of a new sorcerer's house, though without a draconic bloodline. Wild magic houses are seen as being \"less pure\" than those of draconic bloodline, must use the title of \"Low Sorcerer,\" and use the \"Lo\" prefix on their house name, e.g. House LoThorne."
+      },
+      {
+        "name": "The Sorcerer's House",
+        "definition": "The Sorcerer's house is a political entity unto itself. The head of the household is a member of the governing council of Dragons Roost, though oftentimes they send another member of the household in their stead. The house is responsible for the actions taken by its members, and regularly takes part in political intrigue with other houses."
+      },
+      {
+        "name": "Familia",
+        "definition": "Sometimes multiple families bind together to increase their political power, diversify their business portfolios, and make a stronger unit. This unit is called the Familia. Most familias draw their name from the most powerful family within it, though there are some familias that maintain a more egalitarian view of their component member families. Notably, the members of the Close Council are all heads of familias."
+      }
+    ]
+  },
+  {
+    "name": "Dragons Roost",
+    "definition": "The capital of the human empire, Dragons Roost sprawls across the landscape. Built in concentric rings, it has stood the test of time for millenia.",
+    "subEntries": [
+      {
+        "name": "The Governing Council",
+        "definition": "The governing council is composed of the head of family of each sorcerer coven. Using a \"Mandate from the Heavens,\" they debate and pass laws about the governance of Dragons Roost."
+      },
+      {
+        "name": "The Cracked Hearth",
+        "definition": "The Cracked Hearth is  a tavern that the players are based out of. It has a modest inn attached, where weary travelers find their rest while they conduct business in Dragons Roost.  At the back of the room stands the bar, tended usually by Brottor, the owner/operator. To one side of the bar are the stairs leading to the inn's rooms, and a door leading to the back stock rooms under it. To the other side of the bar is a modest stage, where performers regularly ply their trade. A hearth with a large crack running along the base is in the center of the room, warming the room in the winter."
       }
     ]
   }
