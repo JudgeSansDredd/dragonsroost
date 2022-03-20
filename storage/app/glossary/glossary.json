@@ -1,0 +1,24 @@
+[
+  {
+    "name": "The Caste System",
+    "definition": "The human controlled world is ruled by a caste system, in which each human finds themselves in a caste. If they're very unlucky, they may even find themselves outside of one. The caste system rules every aspect of every human's life.",
+    "subEntries": [
+      {
+        "name": "The Draconic Caste",
+        "definition": "Composed of (almost) entirely sorcerers, the Draconic caste is meant to represent the pinnacle of human evolution and devotion to the treaty. The only non-sorcerous members of the Draconic caste are Treaty Officers. It's believed that their utter devotion to The Treaty grants them special dispensation from the Draconic Halls. The Draconic caste enjoy privileges throughout Dragonsroost and surrounding lands, and make up the majority of governance. Blood Scribes also enjoy the privilege of being of the Draconic caste, even though they renounce their family ties."
+      },
+      {
+        "name": "The Trade Caste",
+        "definition": "The Trade caste is composed of non-sorcerer mages. This includes, but isn't limited to, Clerics, Wizards, Bards, and Druids. It notably does not include magic using Rogues and Fighters. Just as the Draconic caste looks at wizards as lessers attempting to reach grace, so does the Trade caste look down upon the Humble caste reaching upwards. If most governance is performed by the Draconic caste, then most business is performed in the Trade caste, hence its name."
+      },
+      {
+        "name": "The Humble Caste",
+        "definition": "Those that cannot perform magic, or those who can only touch it, like arcane tricksters or eldritch knights, belong to the Humble caste. By far the most populous, members of this caste move through society as workers, chefs, performers, guards, and any other position of service. Always taught to remain humble, those of the Humble caste have never risen up to let their grievances be known to their betters. The Office of Compliance has use for members of the Humble caste, however, and offers a meteoric rise to the Draconic Caste for anyone willing to devote their lives to The Treaty."
+      },
+      {
+        "name": "Casteless",
+        "definition": "There are those that have no caste, and as such have no status or legal protections within society. Dwarves, being of the earth and not capable of wielding magic, fall within this group. Also in this group are all Warlocks. \"Selling your soul\" to a higher power for the gift of magic is seen as a perversion, and as such warlocks find themselves ostracized at best, hunted at worst."
+      }
+    ]
+  }
+]
